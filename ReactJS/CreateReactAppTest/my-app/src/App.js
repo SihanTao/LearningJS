@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Application from './button';
+import Menu from './MemuComponent';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Menu />
     </div>
   );
 }
